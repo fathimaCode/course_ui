@@ -14,6 +14,7 @@ function Staff() {
   return (
     <>
       <h1 className='staffHeader'>View Staff</h1>
+      <div className='staff'>
       <div className="row programs">
       <div className="card_program" onClick={redirectToDetails()}>
             <img src={react} alt="" height={120} width={120} />
@@ -32,6 +33,7 @@ function Staff() {
                     
           </div>
         </div>
+      </div>
         
     </>
   )

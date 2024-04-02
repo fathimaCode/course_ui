@@ -250,6 +250,7 @@ padding: 5px;
 }
 .row.programs{
   margin: 100px;
+  height: 500px;
 }
 .circular{
   height: 50px;
@@ -476,6 +477,7 @@ top: 150px;
   padding: 10px;
 }
 .contact_info{
+  height: 700px;
   padding: 55px;
   background-color: var(--primary-color);
 }
