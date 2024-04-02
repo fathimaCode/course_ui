@@ -172,3 +172,358 @@ font-family: "Inter", sans-serif;
   text-align: justify;
   line-height: 2;
 }
+.hexagon {
+  width: 100px; /* Adjust size as needed */
+  height: 55px; /* Adjust size as needed */
+  background-color: #ffcc00; /* Adjust color as needed */
+  position: relative;
+}
+
+.hexagon:before,.hexagon:after{
+  content:"";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+.hexagon:before{
+  bottom: 100%;
+  border-bottom: 28px solid #4d4010;
+}
+.hexagon:after {
+  top: 100%;
+  border-top: 28px solid #181508; /* Adjust color as needed */
+}
+.search_container{
+  border: 1px solid black;
+  border-radius: 15px;
+  height: 42px;
+  padding: 2px;
+  margin-top: 50px;
+  margin-left: 350px;
+}
+.searchText{
+ border: none;
+ padding: 10px;
+ width: 400px;
+ border-radius: 15px;
+}
+.ri-search-line{
+  color: var(--primary-color);
+  padding: 5px;
+  font-size: 1.5em;
+}
+.ri-shopping-cart-2-line{
+  margin-top: 50px;
+  font-size: 1.8em;
+  color: var(--primary-color);
+  padding: 5px;
+  margin-left: 120px;
+}
+.btnGrp{
+  margin-top: 30px;
+}
+.courseBtn.clrWhite{
+  background-color: var(--white-color);
+  color: var(--black-color);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card_program{
+
+  padding: 10px;
+  margin: 15px 25px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 15px;
+}
+.card_program img{
+ height: 280px;
+ width: 80%;
+ margin: 25px;
+ object-fit: cover;
+ padding: 10px;
+}
+.pd{
+padding: 5px;
+}
+.ri-stack-line,.ri-time-line{
+  color: var(--primary-color);
+}
+.row.programs{
+  margin: 100px;
+}
+.circular{
+  height: 50px;
+  width: 50px;
+  color: var(--white-color);
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  margin: 5px;
+}
+.row.md-5{
+  margin-left: 700px;
+}
+.circular span{
+  padding: 10px;
+}
+.titles{
+  position: relative;
+ 
+  width: 100%;
+  height: 200px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+.content{
+  padding: 20px;
+}
+.rating{
+  display: flex;
+  padding: 5px;
+}
+.rate{
+  padding: 5px;
+  font-size: 1.2em;
+}
+.ri-star-s-fill{
+  padding: 5px;
+  font-size: 1.8em;
+  color: var(--primary-color);
+}
+.titles .course_details{
+  background-color: var(--white-color);
+  height: 500px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border-radius: 15px;
+  top: 20px;
+  color: var(--black-color);
+  right:35px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.course_details img{
+  height: 180px;
+  width: 50%;
+  align-self: center;
+  margin: 25px;
+}
+.amount_course{
+
+ padding: 5px 35px;
+}
+.addToCart{
+ align-self: center;
+  padding: 5px;
+  width: 200px;
+  font-size: 1.5em;
+
+  margin: 5px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.buyNow{
+  border: 1px solid black;
+  background-color: var(--white-color);
+  width: 200px;
+  align-self: center;
+  padding: 5px;
+  font-size: 1.5em;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.sales_content{
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.sales_content p{
+  font-size: 1.3em;
+}
+.sales_content span{
+  margin-left: 50px;
+  padding: 10px;
+  
+
+}
+.learnItem{
+  border: 1px solid black;
+  width: 1300px;
+  padding: 15px;
+  margin: 10px;
+}
+.learnItem h3{
+  padding: 5px;
+}
+.learnItem ul{
+  margin-left: 50px;
+}
+.learnItem ul li{
+  padding: 5px;
+  list-style-type: bullet;
+}
+.cartInfo{
+  padding: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.cartInfo p {
+  margin-top: 20px;
+}
+.shop_list{
+  display: flex;
+  padding: 20px;
+}
+.shop_list img{
+  height: 150px;
+}
+.cart_amount{
+  padding:0px 100px;
+}
+.remove{
+  color: red;
+}
+.totalAmount_container{
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border: 1px solid var(--primary-color);
+  padding: 15px;
+}
+.totalAmount_container p{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.total{
+  padding: 5px 40px;
+}
+.success_container{
+  border: 1px solid black;
+  height: 700px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  position: relative;
+  margin: 10px;
+}
+.success_container img{
+  left: 45%;
+  height: 300px;
+  position: absolute;
+}
+.success_container h1{
+  top: 290px;
+  position: absolute;
+  left: 900px;
+}
+.success_container h6{
+  top: 350px;
+  position: absolute;
+  left: 850px;
+  font-size: 1.5em;
+}
+.success_container .celeb_img{
+position: absolute;
+top: 350px;
+left: 0px;
+
+}
+.login_Container{
+  display: flex;
+}
+.login_info{
+  position: relative;
+}
+.login_info .bgimg{
+  height: 950px;
+}
+.login_info .flyimg{
+position: absolute;
+left: 105px;
+top: 150px;
+}
+.login_form{
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 150px;
+}
+.login_form h1{
+  font-size: 2.6em;
+  margin: 20px;
+}
+
+.login_form input{
+  width: 600px;
+  padding: 20px;
+  margin: 10px;
+}
+.validate{
+  color: red;
+}
+.flyimg.mvt{
+  top: 200px;
+  left: 250px;
+}
+.bg_Color{
+  color: var(--primary-color);
+}
+.staffHeader{
+  margin-left: 900px;
+  padding: 10px;
+}
+.contact_info{
+  padding: 55px;
+  background-color: var(--primary-color);
+}
+.contact_info h1{
+  margin-left: 900px;
+  padding: 10px;
+  color: var(--white-color);
+}
+.cform{
+  display: flex;
+  flex-direction: column;
+}
+.cform input{
+  padding: 15px;
+  width: 500px;
+  margin: 15px 0px;
+}
+.contact_Form{
+  padding: 10px;
+}
+.contact_details{
+  padding: 10px;
+}
+.contact_details p{
+  text-align: justify;
+  padding: 15px 0px;
+}
+.courseBtn.col-white{
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+.payInfo{
+  height: 500px;
+  margin: 2% auto;
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.payInfo h2{
+  padding: 10px;
+}
+.row.card img{
+  padding: 5px;
+}
+.cardForm input{
+  padding: 10px;
+  
+}
+.cardNo{
+  width: 400px;
+  margin-left: 20px;
+}

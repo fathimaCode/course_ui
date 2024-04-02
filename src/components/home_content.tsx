@@ -9,6 +9,7 @@ function HomeContent() {
             <button  className='courseBtn wd-2'>Learn From Home</button>
             <div className='round1'></div>
             <div className='round2'></div>
+            <div className='hexagon'></div>
         </div>
         <div className="content2 ">
             <div className="design1">
